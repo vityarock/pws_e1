@@ -9,4 +9,4 @@ script:
 - pytest
 env:
   global:
-- JOBS=1
+  - JOBS=1
