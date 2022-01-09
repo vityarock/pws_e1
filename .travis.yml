@@ -6,7 +6,7 @@ before-install:
 install:
 - pip install -r requirements.txt
 script:
-- pytest
+- pytest --cov
 env:
   global:
   - JOBS=1
