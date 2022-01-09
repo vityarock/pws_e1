@@ -11,7 +11,7 @@ answer = 'e'
 
 def test_letter_check():
     test_result = letter_check(target, answer)
-    assert test_result == True, "тест не пройден"
+    assert test_result != True, "тест не пройден"
 # assert test_result == False, "тест пройден" 
 
 
