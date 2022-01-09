@@ -10,6 +10,6 @@ answer = 'e'
 def test_letter_check():
     test_result = letter_check(target, answer)
     print(test_result)
-    assert test_result == True, "тест не пройден"
+    assert test_result == False, "тест не пройден"
 
 test_letter_check()
